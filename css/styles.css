@@ -1,0 +1,182 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background-size: cover;
+    background-color: black;
+}
+
+#title {
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+p {
+    color: #ffffff;
+}
+
+.btn {
+    background-color: #025FEA;
+}
+
+.btn:hover {
+    background-color: #63a1ff;
+}
+
+/* Navigation bar */
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+/* Download buttons */
+.download-buttons {
+    margin: 5% 3% 5% 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-lg-6 {
+  flex: 0 0 50%; /* Each column takes 50% width on lg screens */
+}
+
+@media (max-width: 767px) {
+  .col-lg-6 {
+    flex: 0 0 100%; /* Each column takes 100% width on mobile screens */
+  }
+}
+
+  .title {
+}
+
+/* Mobile image */
+.company-logo {
+    /* image 1 */
+
+    width: 192px;
+    height: 192px;
+    margin-left: 50%;
+    border-radius: 160px;
+}
+
+/* Footer section */
+#footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.social-icons {
+    margin: 40px 10px;
+}
+
+.footer-anchor {
+    color: white;
+}
+
+.footer-anchor:hover {
+    color: #025FEA;
+}
+
+.footer-para {
+    color: white;
+}
+
+.footer-name {
+    color: blue;
+}
+
+.centered-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+  }
+  
+  @media (max-width: 768px) {
+    .centered-footer {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .button-container,
+    .social-container {
+      width: 100%;
+    }
+  }
+  
+  .button-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-container .footer-anchor,
+  .social-container .footer-para {
+    margin: 0 10px;
+  }
+
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .company-logo {
+        /* image 1 */
+        width: 150px;
+        height: 150px;
+        margin-left: 0%;
+        border-radius: 160px;
+        margin: 5%;
+    }
+
+    .image-rotate {
+        width: 60%;
+        position: static;
+    }
+}
