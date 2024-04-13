@@ -76,6 +76,7 @@
   width: 40px;
   height: 40px;
   top: 280px;
+  display:  inline-block;
 }
 
 .u-section-1 .u-gallery-nav-2 {
@@ -83,6 +84,7 @@
   right: 10px;
   width: 40px;
   height: 40px;
+  display: inline-block;
 }
 
 .u-section-1 .u-text-1 {
